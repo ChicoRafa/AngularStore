@@ -5,7 +5,7 @@ import { Cart, CartItem } from "app/models/cart.model";
 import { CartService } from "app/services/cart.service";
 
 const STRIPE_PUBLIC_KEY =
-  "pk_test_51PInHUARIB8UrSsV0RJH5YOc13AkLaffqxdHVnXWbN5dMQ39yKWOKo7nOhMwmOvNENHxlrhdvHUo6fqnBwKQbH4f00P8Et5050";
+  "yourkeyhere";
 
 @Component({
   selector: "app-cart",

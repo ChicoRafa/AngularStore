@@ -69,7 +69,6 @@ export class CartService {
     });
     
     if (itemForRemoval) {
-      console.log(filteredItems);
       filteredItems = this.removeFromCart(itemForRemoval, false);
     }
 

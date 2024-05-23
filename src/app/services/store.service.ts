@@ -16,7 +16,6 @@ export class StoreService {
     sort = "desc",
     category?: string
   ): Observable<Array<Product>> {
-    console.log(category);
     return this.httpClient.get<Array<Product>>(
       `${STORE_BASE_URL}/products${
         category ? "/category/" + category : ""
